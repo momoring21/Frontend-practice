@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Filter and Search</title>
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h1>Product Filter and Search</h1>
+
+            <div class="filters">
+                <button data-category="all">All</button>
+                <button data-category="T-Shirt">T-Shirt</button>
+                <button data-category="Short">Short</button>
+                <button data-category="Pants">Pants</button>
+                <button data-category="Shoes">Shoes</button>
+                <select id="sortOrder">
+                    <option value="">Sort by</option>
+                    <option value="lowest">Lowest Price</option>
+                    <option value="highest">Highest Price</option>
+                </select>
+                <input type="text" id="searchProduct" placeholder="Search product">
+            </div>
+
+            <div class="products">
+                <!-- Products will be dynamically inserted here from the javascript-->
+            </div>
+        </div>
+    </div>
+
+    <!-- Script JS -->
+    <script src="./script.js"></script>
+</body>
+</html>
