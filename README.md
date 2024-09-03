@@ -1,2 +1,2 @@
-# Website-templates
-Templates that I use to practice front end
+# Front end practice
+Created some websites to practice front end
