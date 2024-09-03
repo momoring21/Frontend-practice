@@ -1,2 +1,2 @@
 # Front end practice
-Created some websites to practice front end
+Developed some websites to practice front end
